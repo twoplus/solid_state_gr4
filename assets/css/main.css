@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #2e2142;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
@@ -123,7 +123,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #ff0202;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
@@ -176,13 +176,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #fc4646;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #8a0000 !important;
 		}
 
 		a.special:not(.button) {
@@ -238,7 +238,7 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: #ffffff;
+		color: #ff0202;
 		font-weight: 600;
 	}
 
@@ -251,7 +251,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #ff0202;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2165,7 +2165,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #ff0202;
 		display: block;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
@@ -2226,7 +2226,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: #ff0202;
 			background: #2e3141;
 		}
 
@@ -2266,7 +2266,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #ffffff;
+			color: #ff0202;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2312,8 +2312,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #ffffff;
-			border-color: #ffffff;
+			background: #ff0202;
+			border-color: #ff0202;
 			content: '\f00c';
 			color: #2e3141;
 		}
@@ -2807,7 +2807,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #ff0202;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2867,7 +2867,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-		color: #ffffff !important;
+		color: #ff0202 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -3317,6 +3317,7 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 1.5em;
 			padding: 0;
+			color: lightsalmon;
 		}
 
 			#menu .links li {
